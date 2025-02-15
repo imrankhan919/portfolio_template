@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1 id="logo">
+        Web.
+        <span> Designer </span>
+      </h1>
+      <ul class="nav-links">
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#skills-section">Skills</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+      <h1 class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </h1>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div id="hero" class="hero-section">
+      <div data-aos="fade-down" class="text-section">
+        <h1 class="hero-heading">Hello I am <span>Peter Parker</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          mollitia voluptates, iste ipsam quia debitis reiciendis numquam! Minus
+          nulla recusandae vel, rem eveniet amet, quam repellat illo, cupiditate
+          harum pariatur?
+        </p>
+        <button class="contact-btn">
+          Contact Now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div data-aos="fade-up" class="image-section">
+        <img id="hero-image" src="./assets/hero-image.png" alt="" />
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <section id="about-section">
+      <h1 class="section-heading">About Me</h1>
+
+      <div class="image-section">
+        <img
+          data-aos="fade-down"
+          id="hero-image"
+          src="./assets/about-image.png"
+          alt=""
+        />
+      </div>
+      <div data-aos="fade-up" class="text-section">
+        <h1 class="hero-heading">Myself <span>Peter Parker</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          mollitia voluptates, iste ipsam quia debitis reiciendis numquam! Minus
+          nulla recusandae vel, rem eveniet amet, quam repellat illo, cupiditate
+          harum pariatur?
+        </p>
+        <button class="contact-btn">
+          Download Resume <i class="fa-solid fa-download"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills-section">
+      <h1 class="section-heading">My Skills</h1>
+
+      <div class="skills-grid">
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-html5"></i></h1>
+          <h3>HTML</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-brands fa-css"></i></h1>
+          <h3>CSS</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-js"></i></h1>
+          <h3>JavaScript</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-brands fa-react"></i></h1>
+          <h3>REACT.JS</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-node"></i></h1>
+          <h3>NODE.JS</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-solid fa-database"></i></h1>
+          <h3>MONGODB</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-github"></i></h1>
+          <h3>GITHUB</h3>
+        </div>
+        <div data-aos="flip-up" class="skill-item">
+          <h1><i class="fa-brands fa-aws"></i></h1>
+          <h3>AWS</h3>
+        </div>
+        <div data-aos="flip-down" class="skill-item">
+          <h1><i class="fa-brands fa-java"></i></h1>
+          <h3>JAVA</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects-section">
+      <h1 class="section-heading">My Projects</h1>
+
+      <div class="projects-list">
+        <div data-aos="zoom-out-down" class="project-card">
+          <video src="./assets/project_one.mp4" autoplay></video>
+          <h3 class="project-title">Uwwa</h3>
+          <p>Animated Website</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div data-aos="zoom-out-up" class="project-card">
+          <video src="./assets/project_two.mp4" autoplay></video>
+          <h3 class="project-title">Neato</h3>
+          <p>Startup Website</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div data-aos="zoom-out-down" class="project-card">
+          <video src="./assets/project_three.mp4" autoplay></video>
+          <h3 class="project-title">Grantify</h3>
+          <p>SASS Tool</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div data-aos="zoom-out-up" class="project-card">
+          <video src="./assets/project_four.mp4" autoplay></video>
+          <h3 class="project-title">Segment</h3>
+          <p>Landing Page</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div data-aos="zoom-out-down" class="project-card">
+          <video src="./assets/project_five.mp4" autoplay></video>
+          <h3 class="project-title">Ramos</h3>
+          <p>Analytics Page</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div data-aos="zoom-out-up" class="project-card">
+          <video src="./assets/project_six.mp4" autoplay></video>
+          <h3 class="project-title">Moneliq</h3>
+          <p>Finance Website</p>
+          <button class="card-btn">
+            View <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact-section">
+      <h1 class="section-heading">Contact Me</h1>
+      <div data-aos="fade-up" class="text-section">
+        <form class="contact-form">
+          <h1 class="hero-heading">Connect With <span>ME!</span></h1>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea placeholder="Enter Your Message"></textarea>
+          <button class="contact-btn">
+            Send Message <i class="fa-regular fa-envelope"></i>
+          </button>
+        </form>
+      </div>
+      <div class="image-section">
+        <img
+          data-aos="fade-down"
+          id="hero-image"
+          src="./assets/contact.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- FAB Scroll to top -->
+    <div class="scroll-top">
+      <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <footer>
+      <h1 class="hero-heading">Web<span>Designer</span></h1>
+      <p>&copy; All Rights Reserved</p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/675cd36975.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
