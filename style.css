@@ -67,6 +67,52 @@ nav {
 
 #hero-image {
   height: 450px;
+  position: relative;
+}
+
+#circle {
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  right: 75px;
+  top: -50px;
+  animation: circleAnimation 5s infinite;
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: rotate(120deg);
+  }
+  10% {
+    transform: rotate(140deg);
+  }
+  20% {
+    transform: rotate(160deg);
+  }
+  30% {
+    transform: rotate(180deg);
+  }
+  40% {
+    transform: rotate(200deg);
+  }
+  50% {
+    transform: rotate(220deg);
+  }
+  60% {
+    transform: rotate(240deg);
+  }
+  70% {
+    transform: rotate(260deg);
+  }
+  80% {
+    transform: rotate(280deg);
+  }
+  90% {
+    transform: rotate(300deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .text-section {
